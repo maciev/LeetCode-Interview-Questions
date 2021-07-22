@@ -9,3 +9,5 @@ var containsDuplicate = function (nums) {
 };
 nums = [1, 2, 3, 1];
 containsDuplicate();
+
+//incomplete

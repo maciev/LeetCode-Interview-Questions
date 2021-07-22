@@ -1,6 +1,7 @@
 var findDisappearedNumbers = function (nums) {
   //this produces 8
   var numsLength = nums.length;
+  
 
   //loops this 8 times
   for (let i = 0; i < numsLength; ++i) {
@@ -9,5 +10,7 @@ var findDisappearedNumbers = function (nums) {
       var newArray = nums.pop([i]);
     }
   }
-  return newArray;
+  return nums as newArray;
 };
+
+//incomplete
